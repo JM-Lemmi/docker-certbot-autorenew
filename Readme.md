@@ -17,6 +17,8 @@ Mount the same volumes you mount to certbot as read write:
 
 Depends on an external webserver to serve the certificates and another container to generate the original certificates.
 
+Don't forget to restart nginx to apply the new certificates!
+
 ### Docker compose
 
 ```yml
